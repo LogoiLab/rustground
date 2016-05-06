@@ -1,0 +1,9 @@
+[package]
+name = "rustground"
+version = "0.0.1"
+authors = ["LogoiLab@github.com"]
+[[bin]]
+name = "guess_game"
+path = "src/The_Book/guessgame/guessgame_final.rs"
+[dependencies]
+rand = "0.3.14"
